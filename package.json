@@ -1,0 +1,23 @@
+{
+  "name": "kargo-notes-api",
+  "version": "1.0.0",
+  "description": "Kargo notları için Vercel serverless API",
+  "main": "api/notes.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "test": "node test/api-test.js"
+  },
+  "keywords": ["api", "notes", "vercel", "serverless", "kargo"],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/kargo-notes-api.git"
+  }
+}
